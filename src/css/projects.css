@@ -63,3 +63,31 @@ span {
   position: absolute;
   right: 25px;
 }
+@media screen and (max-width: 425px) {
+  .project {
+    width: 270px;
+    height: 180px;
+  }
+}
+@media screen and (max-width: 365px) {
+  .projects h3 {
+    font-size: 3em;
+  }
+  .project {
+    width: 200px;
+    height: 125px;
+  }
+  .project-info {
+    height: 65px;
+  }
+  .project-info a,
+  span {
+    font-size: 13px;
+  }
+  .a-github {
+    right: 10px;
+  }
+  .a-github svg {
+    font-size: 20px !important;
+  }
+}

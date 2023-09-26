@@ -59,6 +59,7 @@
   position: fixed;
   top: 70vh;
   right: 35px;
+  z-index: 1;
 }
 .main-navigation ul {
   display: flex;
