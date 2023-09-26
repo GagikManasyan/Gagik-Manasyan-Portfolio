@@ -13,7 +13,10 @@ const Projects = () => {
           <div className="project-info">
             <span>My Portfolio</span>
             <a href="https://gagik-manasyan-portfolio.netlify.app/">Visit</a>
-            <a href="" className="a-github">
+            <a
+              href="https://github.com/GagikManasyan/Gagik-Manasyan-Portfolio"
+              className="a-github"
+            >
               <FontAwesomeIcon icon={faGithub} className="nav-icon" />
             </a>
           </div>
