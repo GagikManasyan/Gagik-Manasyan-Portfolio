@@ -51,7 +51,7 @@
   background: linear-gradient(90deg, #00ccff 55%, #1d1d20 30%);
 }
 @media screen and (max-width: 575px) {
-  .about-me {
+  .about-me h2 {
     font-size: 3em !important;
   }
   .about-me p {
