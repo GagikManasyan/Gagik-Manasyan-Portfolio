@@ -5,7 +5,9 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import "./css/header.css";
 
 const Logo = () => {
-  return <img src="/images/logo.png" alt={"samurai"} className="logo" />;
+  return (
+    <img src="/images/samurai-logo.png" alt={"samurai"} className="logo" />
+  );
 };
 
 const Nav = () => {
