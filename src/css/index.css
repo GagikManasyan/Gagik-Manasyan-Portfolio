@@ -1,6 +1,6 @@
 @import "./reset.css";
 
 .container {
-  padding: 0vh 10vw 0vh 10vw;
+  padding: 0vh 10vw 10vh 10vw;
   min-height: 100vh;
 }
