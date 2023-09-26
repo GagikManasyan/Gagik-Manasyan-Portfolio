@@ -52,7 +52,7 @@
 }
 @media screen and (max-width: 575px) {
   .about-me h2 {
-    font-size: 3em !important;
+    font-size: 0.75em !important;
   }
   .about-me p {
     font-size: 0.35em !important;
