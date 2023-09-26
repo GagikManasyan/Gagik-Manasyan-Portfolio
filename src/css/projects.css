@@ -69,7 +69,7 @@ span {
     height: 180px;
   }
 }
-@media screen and (max-width: 365px) {
+@media screen and (max-width: 390px) {
   .projects h3 {
     font-size: 3em;
   }
