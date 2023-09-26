@@ -1,0 +1,145 @@
+#container-home {
+  background: linear-gradient(90deg, #1d1d20 67%, #b73234 33%);
+}
+.home {
+  display: flex;
+  justify-content: center;
+}
+.main-info {
+  display: flex;
+  justify-content: space-between;
+}
+.avatar-img {
+  position: relative;
+  z-index: 0;
+}
+.avatar-img::before {
+  content: "";
+  position: absolute;
+  top: 30px;
+  left: 45px;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+.avatar-img img {
+  border-radius: 5px;
+  width: 355px;
+}
+.main-info h1 {
+  margin-top: 1em;
+  font-family: "Orbitron";
+  font-size: 5em;
+  color: #b73234;
+}
+.main-info p {
+  margin: 20px 20px 20px 0px;
+  font-family: "Orbitron";
+  font-size: 1.2em;
+  line-height: 1.8;
+  color: #fff;
+  width: 35vw;
+}
+.foot-info {
+  margin-top: 5em;
+}
+.foot-info ul {
+  display: flex;
+}
+.foot-info li {
+  padding: 10px;
+  width: 25%;
+  font-family: "Raleway";
+  line-height: 1.5;
+  color: #fff;
+}
+.main-navigation {
+  position: fixed;
+  top: 70vh;
+  right: 35px;
+}
+.main-navigation ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.main-navigation ul li {
+  margin-top: 25px;
+}
+.main-navigation button {
+  background: none;
+  border: none;
+  font-family: "Raleway";
+  font-size: 25px;
+  color: #ffff;
+}
+.main-navigation span {
+  margin-right: 10px;
+}
+@media screen and (min-width: 1840px) {
+  .avatar-img img {
+    width: 425px;
+  }
+}
+@media screen and (max-width: 1085px) {
+  .avatar-img img {
+    width: 310px;
+  }
+}
+@media screen and (max-width: 995px) {
+  .main-info h1 {
+    font-size: 3.5em;
+  }
+  .main-info p {
+    font-size: 1em;
+  }
+  .foot-info {
+    margin-top: 2em;
+  }
+}
+@media screen and (max-width: 840px) {
+  .container {
+    min-height: 65vh;
+  }
+  .avatar-img::before {
+    display: none;
+  }
+  .avatar-img img {
+    width: 275px;
+  }
+  #container-home {
+    background: #1d1d20;
+  }
+  .nav-icon {
+    font-size: 40px;
+    color: #b73234;
+  }
+  .main-info h1 {
+    font-size: 2.5em;
+  }
+  .main-info p {
+    width: unset;
+  }
+  .foot-info ul {
+    flex-direction: column;
+  }
+  .foot-info li {
+    width: unset;
+  }
+  .skill-tree {
+    display: unset !important;
+  }
+  .skill-bar {
+    width: 70vw !important;
+  }
+}
+@media screen and (max-width: 575px) {
+  .main-navigation {
+    display: none;
+  }
+  .main-info {
+    flex-direction: column;
+  }
+}

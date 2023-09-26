@@ -1,0 +1,52 @@
+#container-about {
+  background: #1d1d20;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  font-family: "Raleway";
+}
+.about h2 {
+  margin: 50px 0px 50px;
+  font-size: 4em;
+  font-weight: 900;
+  color: #b73234;
+}
+.about-me p {
+  max-width: 600px;
+  font-size: 1.05em;
+  color: #ffff;
+  line-height: 1.5;
+}
+.skill-tree {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.skill-tree li {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+.skill-icon {
+  box-sizing: border-box;
+  width: 35px;
+  font-size: 30px;
+}
+.skill-bar {
+  width: 40vw;
+  height: 10px;
+  border: 1px solid white;
+}
+.skill-bar-html {
+  background: linear-gradient(90deg, #ff8800 85%, #1d1d20 30%);
+}
+.skill-bar-css {
+  background: linear-gradient(90deg, #005eff 90%, #1d1d20 30%);
+}
+.skill-bar-js {
+  background: linear-gradient(90deg, #fbff00 70%, #1d1d20 30%);
+}
+.skill-bar-react {
+  background: linear-gradient(90deg, #00ccff 55%, #1d1d20 30%);
+}

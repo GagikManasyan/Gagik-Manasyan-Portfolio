@@ -1,0 +1,20 @@
+header {
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 80px;
+}
+.nav-icon {
+  font-size: 40px;
+  color: #1d1d20;
+}
+.nav-menu ul {
+  display: flex;
+  list-style: none;
+}
+.nav-menu li {
+  margin-left: 30px;
+}
