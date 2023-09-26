@@ -16,7 +16,7 @@
   max-width: 600px;
   font-size: 1.05em;
   color: #ffff;
-  line-height: 1.5;
+  line-height: 2;
 }
 .skill-tree {
   display: flex;
@@ -49,4 +49,12 @@
 }
 .skill-bar-react {
   background: linear-gradient(90deg, #00ccff 55%, #1d1d20 30%);
+}
+@media screen and (max-width: 575px) {
+  .about-me {
+    font-size: 3em;
+  }
+  .about-me p {
+    font-size: 0.75em;
+  }
 }
