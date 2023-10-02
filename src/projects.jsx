@@ -25,7 +25,7 @@ const Projects = () => {
           <img src="/images/project-logos/nairi-logo.png" alt="" />
           <div className="project-info">
             <span>Nairi Restaurant</span>
-            <a href="https://nairi-restaurant.netlify.app/">Visit</a>
+            <a href="https://nairi-restaurant.xyz/">Visit</a>
             <a
               href="https://github.com/GagikManasyan/Nairi-Restaurant"
               className="a-github"
