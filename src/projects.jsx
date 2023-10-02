@@ -51,8 +51,11 @@ const Projects = () => {
           <img src="/images/project-logos/manukyan-logo.png" alt="" />
           <div className="project-info">
             <span>Manukyan Photography</span>
-            <a href="">Visit</a>
-            <a href="" className="a-github">
+            <a href="https://manukyan-photography.netlify.app/">Visit</a>
+            <a
+              href="https://github.com/GagikManasyan/Manukyan-Photography"
+              className="a-github"
+            >
               <FontAwesomeIcon icon={faGithub} className="nav-icon" />
             </a>
           </div>
